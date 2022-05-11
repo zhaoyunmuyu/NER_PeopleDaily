@@ -42,8 +42,8 @@ if __name__ == '__main__':
                                   batch_size=config.batch_size,
                                   shuffle=True,
                                   num_workers=config.num_workers)
-    test_dataloader = DataLoader(test_dataset,
-                                 batch_size=config.batch_size,
-                                 shuffle=True,
-                                 num_workers=config.num_workers)
+    test_dataloader  = DataLoader(test_dataset,
+                                  batch_size=config.batch_size,
+                                  shuffle=True,
+                                  num_workers=config.num_workers)
     

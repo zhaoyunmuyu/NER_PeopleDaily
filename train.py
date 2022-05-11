@@ -178,7 +178,8 @@ if __name__ == '__main__':
     # config.logger.info('START:模型训练')
     # model.train(train_dataloader,valid_dataloader)
     # config.logger.info('FINISH:模型训练')
-
+    
+    config.logger.info('START:模型测试')
     # model.test(test_dataloader)
     text = "冯永祥突发奇想，跑到阿尔及利亚旅行，意外结识了印度人民党的领导"
     model.predict(text)
